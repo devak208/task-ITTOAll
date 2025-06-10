@@ -5,9 +5,11 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "build": "npm run db:generate",
     "db:push": "prisma db push",
     "db:studio": "prisma studio",
     "db:generate": "prisma generate",
+    "vercel-build": "npm run db:generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
