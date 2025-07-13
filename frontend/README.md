@@ -1,6 +1,34 @@
-# Getting Started with Create React App
+# Frontend Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based frontend application for the authentication system, built with Create React App and styled with Tailwind CSS.
+
+## Features
+
+- User registration and login
+- Google OAuth integration
+- JWT-based authentication
+- Responsive design with Tailwind CSS
+- Toast notifications for user feedback
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- Backend API server running (see [backend README](../backend/README.md))
+
+## Setup Instructions
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+3. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## Available Scripts
 
@@ -8,7 +36,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -39,32 +67,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Technologies Used
+
+- **React 19**: Frontend framework
+- **React Router**: Client-side routing
+- **Axios**: HTTP client for API requests
+- **Tailwind CSS**: Utility-first CSS framework
+- **React Hot Toast**: Toast notifications
+
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React documentation](https://reactjs.org/)
+- [Tailwind CSS documentation](https://tailwindcss.com/docs)
